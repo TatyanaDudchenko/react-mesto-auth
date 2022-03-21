@@ -1,0 +1,11 @@
+.popup__title {
+  margin: 0; /*сброшены заданные браузером внешние отступы*/
+  font-size: 24px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 620px) {
+  .popup__title {
+    font-size: 18px;
+  }
+}

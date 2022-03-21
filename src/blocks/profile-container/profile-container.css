@@ -1,0 +1,12 @@
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 919px) {
+  .profile-container {
+    flex-direction: column;
+  }
+}

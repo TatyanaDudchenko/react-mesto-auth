@@ -1,0 +1,19 @@
+.profile__name {
+  margin: 0; /*сброшены заданные браузером внешние отступы*/
+  /*ниже следующими тремя строками правил реализовано переполнение блока как троеточие*/
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 336px; /*установлено ограничение ширины блока с целью реализации эффекта переполнения троеточием*/
+  width: 100%;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 919px) {
+  .profile__name {
+    font-size: 27px;
+    max-width: 189px; /*установлено ограничение ширины блока с целью реализации эффекта переполнения троеточием*/
+  }
+}

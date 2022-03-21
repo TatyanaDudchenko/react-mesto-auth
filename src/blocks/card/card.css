@@ -1,0 +1,7 @@
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0; /*сброшены заданные браузером внешние отступы*/
+  position: relative;
+}

@@ -1,0 +1,11 @@
+.popup__description-is-opened {
+  line-height: 15px;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 75vw;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 10px;
+}

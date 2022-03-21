@@ -1,0 +1,14 @@
+.card__image {
+  width: 282px;
+  height: 282px;
+  object-fit: cover;
+  display: block;
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
+  background-size: cover;
+}
+
+.card__image:hover {
+  opacity: 0.6;
+}
+

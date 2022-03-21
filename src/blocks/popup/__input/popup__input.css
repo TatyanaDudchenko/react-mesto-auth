@@ -1,0 +1,31 @@
+.popup__input {
+  max-width: 100%;
+  width: 100%;
+  min-height: 27px;
+  padding-top: 0; /*сброшены заданные браузером внутренние отступы*/
+  padding-left: 0; /*сброшены заданные браузером внутренние отступы*/
+  padding-right: 0; /*сброшены заданные браузером внутренние отступы*/
+  padding-bottom: 13px;
+  border-top: none; /*сброшены заданные браузером границы*/
+  border-left: none; /*сброшены заданные браузером границы*/
+  border-right: none; /*сброшены заданные браузером границы*/
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 30px;
+  /*ниже следующими тремя строками правил реализовано переполнение блока как троеточие*/
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.popup__input:first-of-type {
+  margin-top: 54px;
+}
+
+@media screen and (max-width: 620px) {
+  .popup__input:first-of-type {
+    margin-top: 75px;
+  }
+}

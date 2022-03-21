@@ -1,0 +1,29 @@
+.popup__icon-close {
+  width: 40px;
+  height: 40px;
+  border: none; /*сброшены заданные браузером границы*/
+  padding: 0; /*сброшены заданные браузером внутренние отступы*/
+  background-image: url(../../../images/icon-close.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: -40px; /*отрицательная ширина кнопки*/
+  top: -40px; /*отрицательная высота кнопки*/
+  transition: 0.6s ease-in-out;
+}
+
+.popup__icon-close:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 620px) {
+  .popup__icon-close {
+    width: 26px;
+    height: 26px;
+    right: 0;
+    top: -39.5px; /*отрицательная высота кнопки плюс отрицательный отступ от попап-контейнера*/
+  }
+}

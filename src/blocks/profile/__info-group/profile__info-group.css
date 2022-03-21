@@ -1,0 +1,11 @@
+.profile__info-group {
+  padding-right: 18px;
+}
+
+@media screen and (max-width: 919px) {
+  .profile__info-group {
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 26px;
+  }
+}

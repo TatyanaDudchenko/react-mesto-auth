@@ -1,0 +1,26 @@
+.profile__button-edit-avatar {
+  padding: 0; /*сброшены заданные браузером внутренние отступы*/
+  border: none; /*сброшены заданные браузером границы*/
+  cursor: pointer;
+  transition: 0.6s ease;
+  background-image: url(../../../images/button-edit-avatar.svg);
+  background-size: 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: inherit;
+  opacity: 0;
+  min-width: 26px;
+  min-height: 26px;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.profile__hover-effect-container:hover .profile__button-edit-avatar {
+  opacity: 1;
+  z-index: 1;
+
+}

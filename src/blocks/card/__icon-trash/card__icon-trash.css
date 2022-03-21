@@ -1,0 +1,20 @@
+.card__icon-trash {
+  position: absolute;
+  right: 15px;
+  top: 18px;
+  width: 18px;
+  height: 19.3px;
+  border: none; /*сброшены заданные браузером границы*/
+  padding: 0; /*сброшены заданные браузером внутренние отступы*/
+  background-image: url(../../../images/icon-trash.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: initial;
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+}
+
+.card__icon-trash:hover {
+  opacity: 0.5;
+}
