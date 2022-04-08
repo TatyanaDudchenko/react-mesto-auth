@@ -1,0 +1,10 @@
+.popup__icon-info-tool-tip {
+    width: 120px;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 620px) {
+    .popup__icon-info-tool-tip {
+        margin-bottom: 40px;
+    }
+  }

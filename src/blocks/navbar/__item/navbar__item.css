@@ -1,0 +1,13 @@
+.navbar__item {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 919px) {
+    .navbar__item {
+      padding-right: 27px;
+    }
+  }
+  

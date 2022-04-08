@@ -34,13 +34,24 @@
 @import url(./blocks/popup/__image-is-opened/popup__image-is-opened.css);
 @import url(./blocks/popup/__description-is-opened/popup__description-is-opened.css);
 @import url(./blocks/popup/__icon-close/popup__icon-close.css);
+@import url(./blocks/popup/__icon-info-tool-tip/popup__icon-info-tool-tip.css);
 @import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__container/_background-black/popup__container_background-black.css);
+@import url(./blocks/popup/__container/_align-center/popup__container_align-center.css);
 @import url(./blocks/popup/__title/popup__title.css);
+@import url(./blocks/popup/__title/_color-white/popup__title_color-white.css);
+@import url(./blocks/popup/__title/_align-center/popup__title_align-center.css);
 @import url(./blocks/popup/__input/popup__input.css);
+@import url(./blocks/popup/__input/_background-black/popup__input_background-black.css);
 @import url(./blocks/popup/__input-error/popup__input-error.css);
 @import url(./blocks/popup/__input/_type/popup__input_type_error.css);
 @import url(./blocks/popup/__button/popup__button.css);
+@import url(./blocks/popup/__button/_background-white/popup__button_background-white.css);
+@import url(./blocks/popup/__button/_margin-large/popup__button_margin-large.css);
 @import url(./blocks/popup/__button/_disabled/popup__button_disabled.css);
 @import url(./blocks/popup/__error/_visible/popup__error_visible.css);
 @import url(./blocks/popup/__form-field/popup__form-field.css);
+@import url(./blocks/link/link.css);
+@import url(./blocks/navbar/__item/navbar__item.css);
+@import url(./blocks/navbar/__item/_email/navbar__item_email.css);
 
